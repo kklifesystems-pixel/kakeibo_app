@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー | 予定&amp;家計コントロール</title>
+  <style>
+    body { font-family: sans-serif; line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 24px 16px; color: #222; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.15rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+    p, li { font-size: 0.95rem; }
+    .meta { color: #666; font-size: 0.85rem; }
+    .note { background: #f5f5f5; padding: 12px; border-radius: 8px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <h1>プライバシーポリシー</h1>
+  <p class="meta">アプリ名: 予定&amp;家計コントロール<br>
+  運営者: KK Life Systems<br>
+  制定日: 2026年8月2日<br>
+  最終更新: 2026年8月3日（免責事項追加）<br>
+  お問い合わせ: <a href="mailto:kklifesystems@gmail.com">kklifesystems@gmail.com</a></p>
+
+  <p>「予定&amp;家計コントロール」（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、個人情報および利用データを適切に取り扱います。本ポリシーは、本アプリがどのような情報を収集・利用・保存するかを説明するものです。</p>
+
+  <h2>1. 収集する情報</h2>
+  <p>本アプリは、機能の提供に必要な範囲で以下の情報を取り扱います。</p>
+  <ul>
+    <li><strong>家計簿・予定データ</strong> … 収支、予定、カテゴリ、メモ、目標設定など（ユーザーが入力した内容）</li>
+    <li><strong>端末内設定</strong> … 言語、テーマ色、通知設定など</li>
+    <li><strong>Google アカウント情報</strong> … Google 連携を利用する場合、メールアドレスおよび Google カレンダー・Google Drive（アプリ専用領域）へのアクセス</li>
+    <li><strong>Firebase（Google Cloud）</strong> … ユーザーがクラウド同期を有効にした場合、Firebase Firestore に世帯共有データが保存されます</li>
+    <li><strong>カメラ・画像</strong> … レシート読み取りおよび家族共有の QR コード読み取り時（端末内で処理し、画像自体はサーバーに送信しません）</li>
+    <li><strong>広告関連データ</strong> … Google AdMob による広告表示時（広告識別子など。Google のポリシーに従います）</li>
+  </ul>
+
+  <h2>2. 情報の利用目的</h2>
+  <ul>
+    <li>家計簿・予定管理機能の提供</li>
+    <li>Google カレンダーとの連携、クラウドバックアップ、世帯共有（QR ペアリング後、Firestore で家計・予定を共有。ユーザーが有効にした場合）</li>
+    <li>予定リマインダー通知の送信</li>
+    <li>レシートからの金額読み取り（端末内 OCR）</li>
+    <li>広告の表示（無料版）</li>
+    <li>アプリの改善・不具合対応</li>
+  </ul>
+
+  <h2>3. 情報の保存場所</h2>
+  <ul>
+    <li><strong>端末内</strong> … 家計簿・予定データの多くは端末内（SharedPreferences）に保存されます</li>
+    <li><strong>Google Drive</strong> … ユーザーがバックアップを実行した場合、アプリ専用の非公開領域に保存されます</li>
+    <li><strong>Firebase Firestore（Google Cloud）</strong> … ユーザーがクラウド同期を有効にした場合、世帯共有データが保存されます</li>
+    <li><strong>手動バックアップ</strong> … ユーザーがエクスポートした JSON ファイルは、ユーザー自身が管理します</li>
+  </ul>
+  <p>運営者が独自のサーバーに家計データを保存することはありません（Google API 利用を除く）。</p>
+
+  <h2>4. 第三者への提供</h2>
+  <p>運営者は、法令に基づく場合を除き、ユーザーの同意なく個人情報を第三者に販売しません。以下のサービス提供者と、機能提供に必要な範囲でデータが共有される場合があります。</p>
+  <ul>
+    <li>Google LLC（Google サインイン、Google カレンダー、Google Drive）</li>
+    <li>Google LLC（Firebase Firestore — 世帯共有のクラウド同期を有効にした場合）</li>
+    <li>Google LLC（Google AdMob 広告サービス）</li>
+  </ul>
+  <p>各サービスのプライバシーポリシー:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy">Google プライバシーポリシー</a></li>
+  </ul>
+
+  <h2>5. 権限について</h2>
+  <ul>
+    <li><strong>インターネット</strong> … API 連携・広告表示</li>
+    <li><strong>カメラ</strong> … レシート撮影</li>
+    <li><strong>通知</strong> … 予定リマインダー</li>
+    <li><strong>正確なアラーム</strong> … 指定時刻のリマインダー（利用できない端末では代替方式を使用）</li>
+  </ul>
+  <p>権限は、該当機能を利用する際に説明を表示したうえでリクエストします。</p>
+
+  <h2>6. データの削除</h2>
+  <ul>
+    <li>アプリを端末から削除すると、端末内に保存されたデータは削除されます</li>
+    <li>Google Drive 上のバックアップは、Google アカウント設定またはアプリ内の復元機能から管理できます</li>
+    <li>データ削除のご依頼は、下記お問い合わせ先までご連絡ください</li>
+  </ul>
+
+  <h2>7. お子様のプライバシー</h2>
+  <p>本アプリは、13 歳未満のお子様を対象としていません。13 歳未満の方から故意に個人情報を収集することはありません。</p>
+
+  <h2>8. セキュリティ</h2>
+  <p>運営者は、合理的な範囲でデータの保護に努めます。ただし、インターネット上の通信および端末内保存には完全な安全性を保証できません。バックアップファイルには家計データが含まれるため、第三者と共有しないでください。</p>
+
+  <h2>9. ポリシーの変更</h2>
+  <p>本ポリシーは、必要に応じて改定することがあります。重要な変更がある場合は、アプリ内または本ページでお知らせします。改定後も本アプリを利用された場合、変更に同意したものとみなします。</p>
+
+  <h2>10. 免責事項</h2>
+  <p>本アプリの利用にあたり、以下の事項をご理解のうえご利用ください。</p>
+  <ul>
+    <li><strong>家計・税務アドバイスではありません</strong> … 本アプリは家計簿・予定の記録・管理を支援するツールです。税務申告、投資判断、節約・貯蓄の助言等を提供するものではなく、記載内容の正確性・完全性を保証しません。</li>
+    <li><strong>ユーザー入力・集計の責任</strong> … 収支・予定の入力、カテゴリ分類、集計結果の確認はユーザーの責任において行ってください。入力ミスや設定による誤差について、運営者は損害賠償責任を負いません。</li>
+    <li><strong>レシート読み取り（OCR）</strong> … 読み取り結果は参考情報です。金額・店名等は必ずご自身で確認し、確定してください。誤認識による損害について運営者は責任を負いません。</li>
+    <li><strong>データの保存・消失</strong> … 端末の故障、紛失、アプリのアンインストール、OS の更新、クラウド同期の不具合、Firebase 等の第三者サービスの障害等により、データが失われる場合があります。重要なデータは Google Drive バックアップや手動エクスポート等で定期的に保管してください。</li>
+    <li><strong>世帯共有</strong> … 共有相手の選定、共有範囲の設定、共有データの取り扱いはユーザーの責任において行ってください。共有先によるデータの閲覧・利用について、運営者は責任を負いません。</li>
+    <li><strong>外部サービス</strong> … Google（サインイン、カレンダー、Drive、Firebase、AdMob 等）の提供状況・仕様変更・障害により、本アプリの一部機能が利用できなくなる場合があります。</li>
+    <li><strong>サービスの変更・中断</strong> … 運営者は、事前の通知なく機能の追加・変更・停止、または本アプリの提供終了を行う場合があります。</li>
+    <li><strong>有料プラン</strong> … サブスクリプションの購入、解約、返金等は Google Play の規約および決済ポリシーに従います。無料版から有料版への切り替え前後のデータ引き継ぎについて、端末・Google アカウントの状態により結果が異なる場合があります。</li>
+    <li><strong>広告</strong> … 無料版に表示される第三者広告の内容・リンク先について、運営者は責任を負いません。</li>
+    <li><strong>損害賠償の限定</strong> … 法令で認められる範囲を超えて、本アプリの利用または利用不能により生じた間接損害、逸失利益、データ消失等について、運営者は一切の責任を負いません。</li>
+  </ul>
+
+  <h2>11. お問い合わせ</h2>
+  <p>本ポリシーに関するお問い合わせ:<br>
+  <a href="mailto:kklifesystems@gmail.com">kklifesystems@gmail.com</a></p>
+
+  <p class="note">※ 内容に変更がある場合は、制定日・最終更新日を更新してください。</p>
+</body>
+</html>
